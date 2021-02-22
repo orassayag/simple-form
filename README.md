@@ -1,7 +1,6 @@
 # Simple form
 
-Built in November 2018.
-React.js simple submit form with sending email by Sendgrid.
+Built in November 2018. React.js simple submit form with sending email by SendGrid.
 
 ## Getting Started
 
@@ -11,14 +10,14 @@ Instructions:
 -------------
 1. Open the project on the IDE (I used VS CODE to develop the project).
 2. On terminal type: npm i
-3. After all moudles created again, on terminal type: npm start
+3. After all modules created again, on terminal type: npm start
 4. Happy testing :)
 
 Notes:
 ------
-1. Could not attach the entire node_moudles folder, the zip created is 41 Mega and too big to be sent in email. I added the instructions how to re-load the node_moudles folder (Step 2).
+1. Could not attach the entire node_modules folder, the zip created is 41 Mega and too big to be sent in email. I added the instructions how to re-load the node_modules folder (Step 2).
 2. The form validation is validation each field by time, and not multi validation (In your example, last name and phone should be displayed in error. You can see all the validations in action one by one. If needed, can be changed, of course.
-3. Can't send email from fron-end environment with Sandgrid, get CORS error, that reffer to this link:
+3. Can't send email from front-end environment with Sandgrid, get CORS error, that reffer to this link:
 https://sendgrid.com/docs/for-developers/sending-email/cors/
 
 ### Prerequisites
@@ -37,10 +36,14 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
-## Authors
+## Author
 
 * **Or Assayag** - *Initial work* - [orassayag](https://github.com/orassayag)
+* Or Assayag <orassayag@gmail.com>
+* GitHub: https://github.com/orassayag
+* StackOverFlow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
+* LinkedIn: https://il.linkedin.com/in/orassayag
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This application has UNLICENSED License.
