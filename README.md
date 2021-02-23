@@ -1,4 +1,4 @@
-# Simple form
+# Simple Form
 
 Built in November 2018. React.js simple submit form with sending email by SendGrid.
 
