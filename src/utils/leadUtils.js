@@ -1,6 +1,6 @@
 import KeyValuePair from '../models/KeyValuePair';
 
-// Creates array for form fields and errors.
+// Creates an array for form fields and errors.
 export const createLeadFieldsArray = () => {
     return ['firstName', 'lastName', 'email', 'phone', 'general'].map(kvp => new KeyValuePair(kvp));
 };

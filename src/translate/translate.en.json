@@ -22,6 +22,6 @@
     "form_page_error_invalid_phone": "Invalid phone number. Must enter digits only",
     "form_page_error_invalid_length_phone": "Invalid phone number. Must include exactly 10 digits",
     "form_page_error_general": "Oppss.. General error occurred, please try again later :(",
-    "form_page_form_submitted_successfully": "Horray! the lead was successfully sent, an email is on his way to you",
+    "form_page_form_submitted_successfully": "Hooray! the lead was successfully sent, an email is on his way to you",
     "loader_alternative_text": "Loading..."
 }

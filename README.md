@@ -9,15 +9,15 @@ Steps to view the solution:
 Instructions:
 -------------
 1. Open the project on the IDE (I used VS CODE to develop the project).
-2. On terminal type: npm i
+2. On the terminal type: npm i
 3. After all modules created again, on terminal type: npm start
 4. Happy testing :)
 
 Notes:
 ------
-1. Could not attach the entire node_modules folder, the zip created is 41 Mega and too big to be sent in email. I added the instructions how to re-load the node_modules folder (Step 2).
+1. Could not attach the entire node_modules folder, the zip created is 41 megabytes and too big to be sent in email. I added the instructions on how to reload the node_modules folder (Step 2).
 2. The form validation is validation each field by time, and not multi validation (In your example, last name and phone should be displayed in error. You can see all the validations in action one by one. If needed, can be changed, of course.
-3. Can't send email from front-end environment with Sandgrid, get CORS error, that reffer to this link:
+3. Can't send email from front-end environment with SandGrid, get CORS error, that refer to this link:
 https://sendgrid.com/docs/for-developers/sending-email/cors/
 
 ### Prerequisites
@@ -46,4 +46,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-This application has UNLICENSED License.
+This application has an UNLICENSED License.

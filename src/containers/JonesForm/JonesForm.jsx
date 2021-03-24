@@ -26,7 +26,7 @@ class JonesForm extends Component {
     }
 
     componentDidMount() {
-        // Loading animation on load need to stop after a short time.
+        // Loading animation on load needs to stop after a short time.
         setTimeout(() => {
             this.setState({ isLoading: false });
         }, 1000);
@@ -43,7 +43,7 @@ class JonesForm extends Component {
         });
     }
 
-    // Handle the submit click buttin on the submit form.
+    // Handle the submit click button on the submit form.
     handleOnSubmitFormClick = async (e) => {
         e.preventDefault();
 
@@ -66,7 +66,7 @@ class JonesForm extends Component {
         // Set the small loading on the form while sending the email.
         this.setState({ isSubmitForm: true });
 
-        // Send email. Won't work since Sandgrid DON'T support CORS from front-end application. Need a real server.
+        // Send email. Won't work since SandGrid DON'T support CORS from front-end applications. Need a real server.
         const result = await sendEmail(settings.sandgrid_api_key, this.state.values);
         if (result) {
 
@@ -81,12 +81,10 @@ class JonesForm extends Component {
                 successText: translate.form_page_form_submitted_successfully
             });
         }, 2000);
-
-
     }
 
     updateData(data) {
-        // Copy the relevant array
+        // Copy the relevant array.
         let array = null;
         switch (data.type) {
             case 'values':

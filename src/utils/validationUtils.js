@@ -31,7 +31,7 @@ const validateExactLength = (value, count) => {
     return (value.trim()).length === count;
 };
 
-// Check first name and last name in the same function since same terms.
+// Check first name and last name in the same function with the same terms.
 const validateName = (key, value) => {
     if (!value) {
         return new LeadValidationResult(key, translate[`form_page_error_empty_${key}`]);
