@@ -9,7 +9,7 @@ Steps to view the solution:
 Instructions:
 -------------
 1. Open the project on the IDE (I used VS CODE to develop the project).
-2. On the terminal type: npm i
+2. In the terminal type: npm i
 3. After all modules created again, on terminal type: npm start
 4. Happy testing :)
 
@@ -22,7 +22,7 @@ https://sendgrid.com/docs/for-developers/sending-email/cors/
 
 ### Prerequisites
 
-You'll need to install VS Code, Node, and clone the project, run npm i + npm start.
+You'll need to install VSCode, Node, and clone the project, run npm i + npm start.
 
 ## Built With
 

@@ -1,7 +1,11 @@
 {
   "name": "simple-form",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orassayag/simple-form.git"
+  },
   "dependencies": {
     "@babel/core": "7.1.0",
     "@sendgrid/mail": "^6.3.1",
