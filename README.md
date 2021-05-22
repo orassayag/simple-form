@@ -9,8 +9,8 @@ Steps to view the solution:
 Instructions:
 -------------
 1. Open the project on the IDE (I used VS CODE to develop the project).
-2. In the terminal type: npm i
-3. After all modules created again, on terminal type: npm start
+2. In the terminal type: npm i.
+3. After all modules created again, in the terminal type: npm start.
 4. Happy testing :)
 
 Notes:
@@ -22,11 +22,11 @@ https://sendgrid.com/docs/for-developers/sending-email/cors/
 
 ### Prerequisites
 
-You'll need to install VSCode, Node, and clone the project, run npm i + npm start.
+You'll need to install VSCode, Node, and clone the project, and in the terminal run: npm i + npm start.
 
 ## Built With
 
-* [React.JS](https://reactjs.org/) - The web framework used - client side.
+* [React.js](https://reactjs.org/) - The web framework used - Client side.
 
 ## Contributing
 
@@ -42,7 +42,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 * Or Assayag <orassayag@gmail.com>
 * GitHub: https://github.com/orassayag
 * StackOverFlow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
-* LinkedIn: https://il.linkedin.com/in/orassayag
+* LinkedIn: https://linkedin.com/in/orassayag
 
 ## License
 
