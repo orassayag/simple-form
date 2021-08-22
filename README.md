@@ -8,25 +8,26 @@ Clone the project to your computer.
 Steps to view the solution:
 Instructions:
 -------------
-1. Open the project on the IDE (I used VS CODE to develop the project).
-2. In the terminal type: npm i.
-3. After all modules created again, in the terminal type: npm start.
-4. Happy testing :)
+1. Open the project on the IDE (I used VSCode to develop the project).
+2. In the terminal run: 'npm i'.
+3. After all modules created again, in the terminal run: 'npm start'.
+4. Happy testing :).
 
 Notes:
 ------
 1. Could not attach the entire node_modules folder, the zip created is 41 megabytes and too big to be sent in email. I added the instructions on how to reload the node_modules folder (Step 2).
 2. The form validation is validation each field by time, and not multi validation (In your example, last name and phone should be displayed in error. You can see all the validations in action one by one. If needed, can be changed, of course.
 3. Can't send email from front-end environment with SandGrid, get CORS error, that refer to this link:
-https://sendgrid.com/docs/for-developers/sending-email/cors/
+https://sendgrid.com/docs/for-developers/sending-email/cors
 
 ### Prerequisites
 
-You'll need to install VSCode, Node, and clone the project, and in the terminal run: npm i + npm start.
+You'll need to install VSCode, Node, and clone the project, and in the terminal run: 'npm i' + 'npm start'.
 
 ## Built With
 
-* [React.js](https://reactjs.org/) - The web framework used - Client side.
+* [React.js](https://reactjs.org/) - The web framework used - client side.
+* [Git](https://git-scm.com) - Source management.
 
 ## Contributing
 
@@ -34,7 +35,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+We use [SemVer](http://semver.org) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Author
 
@@ -46,4 +47,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-This application has an UNLICENSED License.
+This application has an UNLICENSED license.
