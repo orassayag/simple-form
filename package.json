@@ -1,11 +1,37 @@
 {
   "name": "simple-form",
   "version": "0.1.0",
+  "description": "A React.js form submission application with client-side validation and SendGrid email integration. Features real-time field validation, user-friendly error messages, and responsive design with Bootstrap.",
+  "keywords": [
+    "react",
+    "form",
+    "validation",
+    "sendgrid",
+    "email",
+    "javascript",
+    "bootstrap",
+    "webpack",
+    "pwa",
+    "less",
+    "form-validation",
+    "react-form",
+    "client-side-validation"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Or Assayag",
+    "email": "orassayag@gmail.com",
+    "url": "https://github.com/orassayag"
+  },
   "private": false,
   "repository": {
     "type": "git",
     "url": "git://github.com/orassayag/simple-form.git"
   },
+  "bugs": {
+    "url": "https://github.com/orassayag/simple-form/issues"
+  },
+  "homepage": "https://github.com/orassayag/simple-form#readme",
   "dependencies": {
     "@babel/core": "7.1.0",
     "@sendgrid/mail": "^6.3.1",
