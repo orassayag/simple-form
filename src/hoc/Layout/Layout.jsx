@@ -4,22 +4,18 @@ import './Layout.less';
 
 // Components parameter and functions PropTypes validations.
 const propTypes = {
-    children: PropTypes.node
+  children: PropTypes.node,
 };
 
 // Components default values.
 const defaultProps = {
-    children: null
+  children: null,
 };
 
 class Layout extends Component {
-    render() {
-        return (
-            <div className="main-container">
-                {this.props.children}
-            </div>
-        );
-    }
+  render() {
+    return <div className='main-container'>{this.props.children}</div>;
+  }
 }
 
 // Set the PropTypes validators and default values.

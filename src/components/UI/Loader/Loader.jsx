@@ -6,20 +6,22 @@ import { generateClassName } from '../../../utils/textUtils';
 
 // Components parameter and functions PropTypes validations.
 const propTypes = {
-    isSmall: PropTypes.bool
+  isSmall: PropTypes.bool,
 };
 
 // Components default values.
 const defaultProps = {
-    isSmall: false
+  isSmall: false,
 };
 
 const Loader = (props) => {
-    const messageClass = generateClassName(props.isSmall, 'loader', 'small');
+  const messageClass = generateClassName(props.isSmall, 'loader', 'small');
 
-    return (
-        <div className={messageClass} title={translate.loader_alternative_text}>{translate.loader_alternative_text}</div>
-    );
+  return (
+    <div className={messageClass} title={translate.loader_alternative_text}>
+      {translate.loader_alternative_text}
+    </div>
+  );
 };
 
 // Set the PropTypes validators and default values.

@@ -9,6 +9,7 @@ Everyone is welcome to contribute to this project. Contributing doesn't just mea
 ### Reporting Issues
 
 If you find a bug or have a feature request:
+
 1. Check if the issue already exists in the [GitHub Issues](https://github.com/orassayag/simple-form/issues)
 2. If not, create a new issue with:
    - Clear title and description
@@ -31,12 +32,14 @@ If you find a bug or have a feature request:
 ### Code Style Guidelines
 
 This project uses:
+
 - **React.js** with functional and class components
 - **ESLint** for code quality
 - **PropTypes** for component prop validation
 - **LESS** for styling
 
 Before submitting:
+
 ```bash
 # Install dependencies
 npm install
@@ -63,6 +66,7 @@ npm start
 ### Adding New Features
 
 When adding new features:
+
 1. Create components in `src/components/` or containers in `src/containers/`
 2. Add corresponding LESS files for styling
 3. Update models in `src/models/` if needed
@@ -73,6 +77,7 @@ When adding new features:
 ### Translation Support
 
 When adding new text:
+
 1. Add entries to `src/translate/translate.en.json`
 2. Use the translate object in components
 3. Follow the existing naming convention: `component_element_purpose`
@@ -81,9 +86,9 @@ When adding new text:
 
 Please feel free to contact me with any question, comment, pull-request, issue, or any other thing you have in mind.
 
-* Or Assayag <orassayag@gmail.com>
-* GitHub: https://github.com/orassayag
-* StackOverflow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
-* LinkedIn: https://linkedin.com/in/orassayag
+- Or Assayag <orassayag@gmail.com>
+- GitHub: https://github.com/orassayag
+- StackOverflow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
+- LinkedIn: https://linkedin.com/in/orassayag
 
 Thank you for contributing! 🙏

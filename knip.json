@@ -1,0 +1,28 @@
+{
+  "entry": [
+    "src/index.{js,jsx,ts,tsx}",
+    "src/containers/**/*.{js,jsx,tsx}",
+    "src/components/**/*.{js,jsx,tsx}",
+    "scripts/**/*.js",
+    "config/**/*.{js,ts}"
+  ],
+  "project": [
+    "src/**/*.{js,jsx,ts,tsx}",
+    "config/**/*.{js,ts}",
+    "scripts/**/*.js"
+  ],
+  "ignoreDependencies": [
+    "@babel/core",
+    "babel-jest",
+    "babel-polyfill",
+    "identity-obj-proxy",
+    "react-app-polyfill",
+    "whatwg-fetch",
+    "promise",
+    "jest",
+    "prop-types",
+    "less",
+    "less-watch-compiler"
+  ],
+  "ignoreExportsUsedInFile": true
+}
